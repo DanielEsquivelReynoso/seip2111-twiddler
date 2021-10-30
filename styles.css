@@ -1,0 +1,94 @@
+/*These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html, body, #app {
+  min-height: 100vh;
+  margin: auto;
+  background-color: #00BFFF;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+#app {
+  background-color: #00BFFF;
+  color: white;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 60pt;
+  color: #000000;
+  font-weight: lighter;
+  font-family: Arial
+}
+
+button {
+  color: black;
+  margin: 20px;
+}
+
+.feed {
+  text-align: center;
+}
+
+.tweet {
+  display: grid;
+  grid-template-columns: 100px 851px;
+  vertical-align: center;
+  border: solid;
+  border-color: black;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: lightskyblue;
+}
+
+.photo-container {
+  text-align: center;
+}
+
+.information-container {
+  padding: 5px;
+}
+
+.icon {
+  margin: 20px;
+  margin-right: 30px;
+  text-align: end;
+}
+
+.icon:hover {
+  color: #C41E3A;
+}
+
+.profile-photo {
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+  padding: 23px;
+  padding-left: 18px;
+
+}
+
+.username {
+  width: 30%;
+}
+
+.timestamp {
+  width: 75%;
+  text-align: end;
+  margin-top: -18px;
+}
+
+.message {
+  text-align: left;
+  padding-left: 100px;
+  margin-top: 15px;
+  color: black;
+}
